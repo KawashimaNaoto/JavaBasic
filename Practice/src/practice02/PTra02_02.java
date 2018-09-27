@@ -10,11 +10,15 @@ public class PTra02_02 {
 	public static void main(String[] args) {
 		int num = 10;
 		System.out.println(num);
+		
+		System.out.println(num+30);
 
 		// ★ 変数numの値に30足した数を出力してください
 
 
 		// ★ 以下のプログラムで40が出力されるようにしてください
+	    num*= 4;
 		System.out.println(num);	// ※※ この行は修正しないでください
+		
 	}
 }

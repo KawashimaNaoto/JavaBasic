@@ -8,6 +8,9 @@ package practice02;
 
 public class PTra02_01 {
 	public static void main(String[] args) {
+		System.out.println(20/5);
+		System.out.println(126*13);
+		System.out.println(97%6);
 
 		// ★ 20を5で割った値を出力してください
 
