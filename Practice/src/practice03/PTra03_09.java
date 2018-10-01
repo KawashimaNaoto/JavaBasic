@@ -17,12 +17,11 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		java.util.Scanner scanner = new java.util.Scanner(System.in);
-		
+
 		System.out.println("０～６までの数字を入力してください。");
-		
-		int num = scanner.nextInt();
-		
+
+		int num = new java.util.Scanner(System.in).nextInt();
+
 		switch (num) {
 		case 0:
 			System.out.println("日曜");
