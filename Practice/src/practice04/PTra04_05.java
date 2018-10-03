@@ -44,6 +44,8 @@ public class PTra04_05 {
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
+
+
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 
@@ -60,7 +62,17 @@ public class PTra04_05 {
 
 
 			}
+			if ((myHand==0)&&(cpuHand==1)) {
+				break;
+			}
 
+			if((myHand==1)&&(cpuHand==2)) {
+				break;
+			}
+
+			if((myHand==2)&&(cpuHand==0)) {
+				break;
+			}
 		}
 	}
 }
