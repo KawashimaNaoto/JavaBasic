@@ -60,7 +60,7 @@ public class PTra18_02 {
 		// ※ できれば拡張for文を使いましょう
 
 		for (Player x : array) {
-			System.out.println(array);
+			System.out.println(x);
 		}
 	}
 }
