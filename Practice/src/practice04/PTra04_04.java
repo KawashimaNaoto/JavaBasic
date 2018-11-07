@@ -14,6 +14,7 @@ public class PTra04_04 {
 
 		// ★ int型の変数mapを宣言して、100で初期化してください
 		int map = 100;
+		
 
 		// ★ int型の変数progressを宣言して、0で初期化してください
 		int progress = 0;

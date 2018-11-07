@@ -10,8 +10,8 @@ public class PTra02_08 {
 	public static void main(String[] args) {
 		int num = 20;
 		int calc = 5;
-		String name = "鈴木さんは、"+(num+calc)+"歳になりました";
-		System.out.println(name);
+		String name = "鈴木";
+		System.out.println(name+"さんは、"+(num+calc)+"歳になりました");
 		// ★ 変数num, calc, nameを連結して「鈴木さんは、25歳になりました」を出力してください
 		
 
